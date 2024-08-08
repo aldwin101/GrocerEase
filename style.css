@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100%;
+    background-color: #BEBEBE;
+    font-family: montserrat;
+}
+
+main, header {
+    display: grid;
+    justify-content: center;
+}
+
+header, section { 
+    margin: 1em 0;
+}
+
+input, button { 
+    height: 1.5em;
+    border-style: none;
+    border-radius: 2px;
+    padding: .5em;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+li {
+    margin-bottom: .5em;
+
+}
