@@ -5,7 +5,8 @@
 
 body {
     height: 100%;
-    background-color: #BEBEBE;
+    background-color: #4A5459;
+    color: #FFFFF0;
     font-family: montserrat;
 }
 
@@ -18,11 +19,21 @@ header, section {
     margin: 1em 0;
 }
 
-input, button { 
-    height: 1.5em;
-    border-style: none;
-    border-radius: 2px;
-    padding: .5em;
+input { 
+    height: 2.5em;
+    border: none;
+    border-radius: .3em;
+}
+
+button {
+    background-color: #50C878;
+    font-family: montserrat;
+    color: #FFFFF0;
+    border: none;
+    border-radius: .3em;
+    text-align: center;
+    height: 2.5em;
+    width: 3em;
 }
 
 ul {
@@ -31,5 +42,8 @@ ul {
 
 li {
     margin-bottom: .5em;
-
+    background-color: rgba(255, 255, 255, .2);
+    padding: .5em;
+    border: none;
+    border-radius: .3em;
 }
