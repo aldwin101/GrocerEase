@@ -47,3 +47,9 @@ li {
     border: none;
     border-radius: .3em;
 }
+
+#alertMessage {
+    font-size: .8em;
+    color: #ff0000;
+    padding-top: .3em;
+}
