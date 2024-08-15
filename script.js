@@ -16,6 +16,9 @@ function addToList() {
 }
 
 addItemButton.addEventListener('click', addToList)
+itemInput.addEventListener('focus', () => {
+    document.getElementById('alertMessage').textContent = ''
+})
 
 // function for creating an item 
 function createItem(item) {
